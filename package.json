@@ -7,5 +7,7 @@
   "author": "SAM CLI",
   "license": "MIT",
   "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
 }
