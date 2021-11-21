@@ -132,3 +132,8 @@ $RECYCLE.BIN/
 ### AWS ###
 
 .aws-sam
+
+
+### TypeScript ###
+
+built
