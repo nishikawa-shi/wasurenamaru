@@ -12,6 +12,7 @@ Resources:
   ExecuteSamplePeriodicalTask:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: ExecuteSamplePeriodicalTask
       PackageType: Image
       Events:
         TimeComesEvent:
