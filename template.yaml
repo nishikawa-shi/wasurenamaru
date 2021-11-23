@@ -13,6 +13,11 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       PackageType: Image
+      Events:
+        TimeComesEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(* * * * ? *)
       Architectures:
         - x86_64
     Metadata:
