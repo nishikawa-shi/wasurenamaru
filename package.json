@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rm -r functions/*/built",
     "build": "find ./functions -name 'tsconfig.json' | xargs -I {} tsc -p {}",
-    "test": "jest"
+    "test": "npm run build && jest"
   },
   "devDependencies": {
     "typescript": "^4.5.2",
